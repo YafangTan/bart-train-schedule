@@ -28,10 +28,11 @@ index.php
         </header>
 
         <section class = 'inst'>
-            <p>1) Select a route from the drop down menu below</p>
+            <p>1) Select a route from the drop down menu below.</p>
             <p>2) Select a train station with the radio buttons.</p>
-            <p>3) Detailed arrival / departure information will appear</p>
-            <p>4) The route will be shown in the Google map.  <br/>You can click on a station's marker for departure times.</p>
+            <p>3) Detailed arrival / departure times will appear.</p>
+            <p>4) The route will be shown in the Google map.</p>
+            <p>5) Click on a station's Google map marker for departure times.</p>
         </section>
 
         <section class = 'user-area cf'>                                        <!-- large container for drop down menu & detailed route info -->
