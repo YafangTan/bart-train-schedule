@@ -144,9 +144,7 @@ right side of user-area with detailed route information
 }
 
 .trip-details {
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    margin-bottom: 4px;
 }
 
 .trip-details header {          /* first half of info, containing fare cost */
