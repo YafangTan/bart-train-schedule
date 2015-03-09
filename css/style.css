@@ -1,0 +1,194 @@
+
+/**http://nicolasgallagher.com/micro-clearfix-hack/
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/******************** MY CSS ***************************/
+body { 
+    background-color: #AA8439;
+}
+
+#map { 
+    height: 480px; 
+    width: 640px;
+    display: inline-block;
+    margin: 6px 6px 0px 0px;
+    float: right;
+}
+
+header {
+    background-color: #805C15;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center; 
+    font-family: overlock;
+    color: white;
+    font-size: 3em;
+}
+
+.inst {
+    background-color: #D4B16A;
+    width: 440px;
+    margin: 20px auto;
+    font-family: overlock;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.inst p {
+    margin: 0;
+    padding: 10px;
+}
+
+/******************************************************************* 
+big container to hold the drop down menu, radio buttons 
+********************************************************************/
+.user-area {                
+    width: 1380px;
+    padding: 10px;
+    background-color: #D4B16A;  
+    margin: 0 auto;
+    margin-bottom: 100px;   
+}
+
+/******************************************************************* 
+left side of user-area, with the drop down menu and radio buttons
+********************************************************************/
+.select-route {                 /* container for the drop down menu & radio buttons */
+    width: 300px;
+    height: 960px;
+    display: inline-block;
+    font-family: overlock;
+    font-size : 1em;
+    background-color: #FFE3AA;
+    margin: 6px;    
+    vertical-align: top;
+}
+
+.select-route h2 {              /* "Choose a route" heading */
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.select-route select {          /* the drop down selection bar */
+    display: block;
+    margin: 10px auto;
+}
+
+.select-route .select-route-stops { /* the radio buttons */ 
+    display: block;
+    margin: 0 auto;
+}
+
+.select-route .select-route-stops div {  /* each div is a radio button & label pair */
+    padding: 6px;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+/******************************************************************* 
+right side of user-area with detailed route information
+********************************************************************/
+.information-panel {            /* container for departures & arrivals containers */
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 6px;
+    font-family: overlock;
+    font-size : 1.2em;
+}
+
+.departure-details-container {  /* container holding 2 sub-containers for arrivals and departures*/
+    display: inline-block;
+}
+
+.departures, .arrivals {        /* the 2 sub-containers */ 
+    width: 200px;
+    display: inline-block;
+    margin: 0;
+}
+
+.departures h2, .arrivals h2 {  /* "arrivals" & "departures" headings */
+    text-align: center;
+    margin: 0;
+    color: white;
+    background-color: black;
+    padding: 6px 0;
+}
+
+.trip-details {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.trip-details header {          /* first half of info, containing fare cost */
+    background-color: #C99A0A;
+    padding: 0px;
+}
+
+.trip-details header p {        /* 2nd half of info, with the times */ 
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.trip-details .leg-details {
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: #EDDEAD;
+    font-size: 0.8em;
+}
+
+.trip-details .leg-details p {
+    margin: 0;
+    text-align: center;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
