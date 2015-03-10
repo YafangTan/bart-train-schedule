@@ -27,6 +27,7 @@ index.php
             <h1>CS75 Project 2 - Bart Train Schedule</h1>
         </header>
 
+        <div class='wrapper'>
         <section class = 'inst'>
             <p>1) Select a route from the drop down menu below.</p>
             <p>2) Select a train station with the radio buttons.</p>
@@ -70,8 +71,11 @@ index.php
             </section>
             <div id="map"></div>                                                    <!-- a div container for the google map -->
         </section>  
-
+        </div>
         
+        <footer>
+            <h3>CS75 Project 2 - Bart Train Schedule</h3>
+        </footer>
 
         <script src="../js/script.js" type="text/javascript"></script>
     </body>

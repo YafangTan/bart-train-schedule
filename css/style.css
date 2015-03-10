@@ -27,8 +27,25 @@
 }
 
 /******************** MY CSS ***************************/
+html, body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: 160px;
+}
+
 body { 
     background-color: #AA8439;
+}
+
+footer {
+    height: 100px;
+    margin-top: -100px; 
+    background-color: #805C15;
+    font-family: 'overlock';
+    font-size: 1.4em;
 }
 
 #map { 
