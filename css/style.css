@@ -46,6 +46,10 @@ footer {
     background-color: #805C15;
     font-family: 'overlock';
     font-size: 1.4em;
+    color: white;
+}
+footer h3 {
+    padding: 8px;
 }
 
 #map { 
