@@ -36,7 +36,8 @@
 ehthumbs.db
 Thumbs.db
 
-# ms office #
+# other #
 ############
 *.xls
 *.xlsx
+*.pdf
