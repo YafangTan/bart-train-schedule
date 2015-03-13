@@ -1,26 +1,42 @@
+********************
 Bart Train Schedule
-Project 2 from Harvard CS75
-http://cdn.cs75.net/2012/summer/projects/2/
+********************
+The idea for this project comes from: 
+	Project 2 from Harvard CS75
+	http://cdn.cs75.net/2012/summer/projects/2/
 
 Project Details:
-Create a website where users can look up schedule information of BART train routes.
-Each route will have it's stations and path shown in Google Maps.
-Users can click on a station to receive real-time arrival/departure times.
+	Create a website where users can look up real-time schedule 
+	information (arrivals / departures) of BART train routes.
 
+Hosted Link:
+	None yet
+
+Instructions:
+	Users pick a route from the drop down menu, a list of stations will show.
+	Users pick a station, the real-time arrivals/departures appear on the page.
+	Also, the route is drawn in a google map and users can click on the map
+	marker of a station & see real-time departure times pop-up on the map.
+	The bart.sql file has all the tables pre-filled with data from the BART API.
+
+Languages: 
+	HTML - CSS - PHP - SQL - Javascript
+
+3rd Party Tools: 
+	- BART API 
+	- Google Maps API
+
+Helpful Resources (many thanks):
 Needed lots of help with several issues...
-1) Had a problem with needing a closure for the google maps marker click event handler, answer can be found here:
-	http://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example
+1) Needed a closure for a click event handler on a google maps marker.
+   Answer can be found here:
+   http://stackoverflow.com/questions/3059044/google-maps-js-api-v3-simple-multiple-marker-example
 
-2) How to get and parse an XML file in Javascript
-	http://stackoverflow.com/questions/8237923/parsing-xml-rss-from-url-using-java-script
+2) How to get and parse an XML file in Javascript:
+   http://stackoverflow.com/questions/8237923/parsing-xml-rss-from-url-using-java-script
 
 3) How to do AJAX in a for-loop:
-	http://stackoverflow.com/questions/13111612/call-ajax-inside-for-loop
-
-The bart.sql file has all the tables filled with data.
-
-Languages: HTML - CSS - PHP - SQL - Javascript
-3rd Party: BART API - Google Maps API
+   http://stackoverflow.com/questions/13111612/call-ajax-inside-for-loop
 
 Needed Improvements:
-- BART API calls are sometimes slow
+	- BART API calls are sometimes slow
