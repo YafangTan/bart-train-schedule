@@ -17,6 +17,7 @@ Instructions:
 	Users pick a station, the real-time arrivals/departures appear on the page.
 	Also, the route is drawn in a google map and users can click on the map
 	marker of a station & see real-time departure times pop-up on the map.
+	By default, route #1 is displayed in the Google map on first page load.
 	The bart.sql file has all the tables pre-filled with data from the BART API.
 
 Languages: 
