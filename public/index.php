@@ -27,6 +27,12 @@ index.php
             <h1>CS75 Project 2 - Bart Train Schedule</h1>
         </header>
 
+        <noscript>
+            <div class="no-script">
+                <p>Note: Please enable Javascript</p>
+            </div>
+        </noscript>
+
         <div class='wrapper'>
         <section class = 'inst'>
             <p>1) Select a route from the drop down menu below.</p>
