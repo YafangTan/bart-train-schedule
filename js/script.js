@@ -109,13 +109,21 @@ var routeColor;                                         // store hex code of sel
 // it then calls displayMap() to draw the markers on the google map.
 function getMarkerData (response) {
     var stopMarkers = JSON.parse(response);
-    //console.log(stopMarkers);
 
-    displayMap({
+    // if google maps api can't be reached, display error message in map
+    if ( typeof google === 'undefined') {
+        document.querySelector('#map').innerHTML = '';
+        var newP = document.createElement('p');
+        newP.textContent = "Error: Can't reach Google API";
+        document.querySelector('#map').appendChild(newP);
+    }
+    else {      // else show the google map
+        displayMap({
                     center: { lat: SF.lat, lng: SF.lon },
                     zoom: 10,
                     mapTypeId: google.maps.MapTypeId.ROADMAP
-                }, stopMarkers);
+                }, stopMarkers);    
+    }    
 }
 
 // An ajax request will call "getMarkerData", which in turns calls "displayMap" to draw the Google Map.

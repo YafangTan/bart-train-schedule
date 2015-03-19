@@ -74,6 +74,16 @@ footer h3 {
     display: inline-block;
     margin: 6px 6px 0px 0px;
     float: right;
+    border: 1px solid black;
+}
+
+/* Google api error message */
+#map p {
+    text-align: center;
+    background-color: #C99A0A;
+    padding: 10px;
+    font-family: overlock;
+    margin: 0;
 }
 
 header {
@@ -91,7 +101,7 @@ header h1 {
 
 .inst {
     background-color: #D4B16A;
-    width: 440px;
+    width: 540px;
     margin: 20px auto;
     font-family: overlock;
     font-size: 1.2em;

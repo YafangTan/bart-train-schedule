@@ -4,6 +4,7 @@ index.php
     This is the home page.
 ***************************************************************************************************/
     require_once('../lib/config.php');                  // config.php defines constant variables to use (eg: ROOT).                 
+    require_once('../lib/helpers.php');                 // helper functions
     require_once(ROOT.'/lib/database_class.php');       // database class has all the methods for getting information from SQL tables.
     $db = new Database;                                 // instantiate a database object
     //include(ROOT.'/lib/fillRouteTable.php');          // un-comment only if "route" SQL table is empty.
